@@ -158,7 +158,8 @@ function isDiffHost() {
   return false;
 }
 		window["GMSOFT_SDKTYPE"] = "gm";
-		localStorage.setItem("gmsdksigndomain", "ewogICJzaWduZWQiOiAibStVenRwc20xL1dkU05STEFGS0x3YVl0dzg4b296QlA0QktaeHY5cnNadUluNWlMUWZxMUk3ZEcwbnlIN3hKamRBVTEvQUQ5dlFNUW1EeWNZUzRtb3F0VGlFd0N4WHoyTytz[...]"
+		// Removed long embedded payload that caused a syntax error on Pages. Store an empty placeholder instead.
+		localStorage.setItem("gmsdksigndomain", "");
 
 		var progressElement = document.getElementById('progress_fill');
 		var container =	document.getElementById("unity-container");
